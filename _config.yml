@@ -32,6 +32,7 @@ profile:
   social_links:
     github: slotesource
     kaggle: slotesource
+permalink: /:title
 
 # Build settings
 # theme: minima

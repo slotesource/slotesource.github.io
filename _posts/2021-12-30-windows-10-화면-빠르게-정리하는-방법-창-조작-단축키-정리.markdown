@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "[Windows 10] 화면 빠르게 정리하는 방법 - 창 조작 단축키 정리"
+date:   2021-12-30 21:21:00 +0900
+---
+Windows에서 단축키를 적절하게 이용하면 여러 창들을 빠르게 정리할 수 있어 작업의 능률을 올릴 수 있습니다. 아래 단축키들을 잘 익혀두시면 마우스를 사용하지 않고도 편리하게 화면을 전환할 수 있습니다.
+
+|       단축키       |                          설명                         |
+|:------------------:|:-----------------------------------------------------:|
+| <kbd class="keyboard-key">Alt</kbd> + <kbd class="keyboard-key">Tab</kbd> | 창 전환 |
+| <kbd class="keyboard-key">Alt</kbd> + <kbd class="keyboard-key">Esc</kbd> | 열린 순서대로 순차적 창 전환 |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">D</kbd> | 바탕 화면 보기 <br> (한 번 더 입력하면 원상태로 복구) |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">Home</kbd> | 현재 활성화 중인 창 제외하고 모든 창 최소화 <br> (한 번 더 입력하면 원상태로 복구) |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">↑</kbd><kbd class="keyboard-key">↓</kbd><kbd class="keyboard-key">←</kbd><kbd class="keyboard-key">→</kbd> | 활성화된 창 이동(← →), 최대화/이전 크기로/최소화(↑ ↓) |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">Tab</kbd> | 작업 보기(task view) |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">Ctrl</kbd> + <kbd class="keyboard-key">D</kbd> | 가상 데스크톱 생성 |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">Ctrl</kbd> + <kbd class="keyboard-key">F4</kbd> | 가상 데스크톱 닫기 |
+| <kbd class="keyboard-key">⊞ Win</kbd> + <kbd class="keyboard-key">Ctrl</kbd> + <kbd class="keyboard-key">←</kbd><kbd class="keyboard-key">→</kbd> | 가상 데스크톱 전환 |
