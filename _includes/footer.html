@@ -13,18 +13,21 @@
           </a>
         </p> -->
       {%- if site.profile %}
-        <ul class="contact-list">
-          {% if site.profile.name -%}
-            <li class="p-name">{{ site.profile.name | escape }}</li>
-          {% endif -%}
-          {% if site.profile.email -%}
-            <li><a class="u-email" href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></li>
-          {%- endif %}
-        </ul>
+        <div class="profile-card">
+          <img src="{{ '/assets/images/profile_pic.png' | relative_url }}" alt="{{ site.profile.name }}">
+          <ul class="contact-list">
+            {% if site.profile.name -%}
+              <li class="p-name">{{ site.profile.name | escape }}</li>
+            {% endif -%}
+            {% if site.profile.email -%}
+              <li><a class="u-email" href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></li>
+            {%- endif %}
+          </ul>
+        </div>
       {%- endif %}
       </div>
       <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
+        <p>{{ site.description }}</p>
       </div>
     </div>
 
